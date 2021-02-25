@@ -2,13 +2,45 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorPrimary"
+    android:background="#4ECDC4"
     android:orientation="vertical">
 
     <TextView
         android:id="@+id/text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="First Fragment"
-        android:textColor="#ffffff" />
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom2"
+        android:fontFamily="casual"
+        android:padding="10dp"
+        android:text="Menu Makanan"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="112dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/menu" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="385dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="1. Ayam Bakar              RP. 15.000
+\n2. Gurami Bakar           RP. 50.000
+\n3. Bebek Goreng           RP. 20.000 \n
+4. Tahu Tempe               RP. 10.000
+\n5. Cah Kangkung           RP. 15.000"
+
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="20sp" />
+
 </LinearLayout>

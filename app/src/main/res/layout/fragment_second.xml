@@ -2,12 +2,44 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorAccent"
+    android:background="#1A535C"
     android:orientation="vertical">
 
     <TextView
         android:id="@+id/text"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="@string/fragment_second" />
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/custom"
+        android:fontFamily="casual"
+        android:padding="10dp"
+        android:text="Menu Minuman"
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="35dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="112dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/menu2" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="385dp"
+        android:layout_marginTop="20dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="1. Es Teh               RP. 5.000
+\n2. Es Jeruk           RP. 6000
+\n3. Milshake         RP. 8.000 \n
+4. Es Campur       RP. 9.000
+\n5. Milk Tea           RP. 10.000"
+
+        android:textAlignment="center"
+        android:textColor="#ffffff"
+        android:textSize="25sp" />
 </LinearLayout>
